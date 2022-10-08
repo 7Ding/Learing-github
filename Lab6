@@ -1,0 +1,40 @@
+# Git-1 
+***Note:*** This document is my lecture note about Git-1.
+
+## Version Control and Collaboration
+-----
+Basic solution: Making copies
+if you make copies, you can use previous files.
+-> Git is Version Control
+#### Changes vs Snapshots
+If file A changed
+1. Change: Use ΔA
+2. Snapshot: Use A1
+
+
+
+#### Local, Centralized, Distributed
+1. Local: individual computer
+2. Centralized: Cooperation -> Many Version Control use it.
+3. Distributed: Cooperation -> if you lost files or files broke, you can get files.
+---
+
+#### Three Staes in Git
+1. Modified:
+2. Staged:
+3. Comitted: comit == snapshot
+---
+
+#### Git config: First-time setup
+1. System level: --system opthion
+2. Global (user) level: --global option
+3. Local level: --local opthion
+---
+
+
+1. $ git init : Initializing a Repository in an Existing Directory
+2. $ git status : Checking Repository Status
+3. $ git add [file_name] : Adding a new file to be staged(tracked)
+4. $ git add. : Adding all files to be staged(tracked)
+5. $ git rm --cached [file_name] : Unstaging a file
+6. $ .gitignore : ignoring a file
